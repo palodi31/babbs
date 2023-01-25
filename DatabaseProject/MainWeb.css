@@ -1,0 +1,150 @@
+    body{
+        background-color:lightgrey;
+    }
+    header {
+        background-color: #333;
+        color: rgba(0,255,71,255);
+        padding: 15px;
+        text-align: center;
+        font-family:'Courier New', Courier, monospace;  
+        font-size:250%;
+        font-stretch: ultra-expanded;
+        border-radius: 20px;
+        background-image: url('Images/LogoMakr.png'),url('Images/LogoMakr.png');
+        background-repeat:no-repeat,no-repeat;
+        background-position-x:96%,4%;
+        background-position-y: center;
+        background-size:11%;
+        opacity: 1;
+    }
+    .font{
+        text-decoration: none;
+        color: rgba(0,255,71,255);
+    }
+    .scope{
+        width:100%;
+        margin: auto;
+        padding: 0px 0;
+        display:inline-block;
+        align-content: center;
+        justify-content:space-between;
+        text-align: left;
+        background-color:rgb(42, 42, 42);
+        border-radius: 10px;
+        position: sticky;
+        top: 0;
+    }
+    .scope ul li {
+        list-style: none;
+        display: inline-block;
+        margin: 0 20px;
+        position: relative;
+    }
+    .scope ul li a{
+        text-decoration:double;
+        color: rgb(0, 255, 153);
+        text-transform:uppercase;
+    }
+    .scope ul li ::after{
+        content: '';
+        height: 3px;
+        width: 0;
+        background:rgb(255, 255, 255);
+        position: absolute;
+        left: 0;
+        bottom: -5px;
+        transition: 0.5s;
+    }
+    .scope ul li :hover:after{
+        width: 100%;
+    }
+    .body {
+        font-family: Arial, sans-serif;
+    }
+    .product-list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 20px;
+    }
+    .product-item {
+        background-color: #9a9999;
+        padding: 30px;
+        text-align: center;
+    }
+    .product-image {
+        width: 220px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 5px;
+    }
+    .product-images {
+        width: 240px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 5px;
+    }
+    .product-name {
+        text-decoration:none;
+        margin: 10px 0;
+        font-size: 24px;
+        font-weight: bold;  
+    }
+    .product-price {
+        color: #555;
+    }
+    .add-to-cart-button {
+        padding: 10px;
+        border-radius: 5px;
+        background-color: #d7bd24;
+        color: black;
+        cursor: pointer;
+        font-weight: bold;
+        border:2px solid black;
+    }
+    .add-to-cart-button:hover {
+        background-color: #b69f1b;
+    }
+    footer {
+        background-color: #333;
+        color: #fff;
+        padding: 30px;
+        text-align: center;
+    }
+    .info{
+        width:20%;
+        margin: auto;
+        align-content: center;
+        justify-content: space-between;
+        text-align: center; 
+        border-radius: 5px;
+        color: black;
+        text-decoration:underline;
+    }
+    .info:hover{
+        background-color: #7a7878;
+    }
+   .buttons{
+        display: inline-block;
+        justify-content: space-between;
+        margin: auto;
+        text-align: center;
+   }
+   .buy-now{
+        padding: 10px;
+        border-radius: 5px;
+        background-color: #d7bd24;
+        color: black;
+        cursor: pointer;
+        font-weight: bold;
+        border:2px solid black;
+        text-decoration: none;
+   }
+   .buy-now:hover{
+    background-color: #b69f1b;
+   }
+   .button-font{
+        text-decoration: none;
+        color:#000;
+   }
+
+
